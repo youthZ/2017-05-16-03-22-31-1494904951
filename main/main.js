@@ -12,7 +12,7 @@ module.exports = function main(inputs) {
 function printLedNumber(result){
 	for (var row = 0;row < result.length ; row++)
 	{
-		console.log(result[index]);
+		console.log(result[row]);
 	}
 };
 
