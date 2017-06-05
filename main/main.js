@@ -24,7 +24,7 @@ function mergeResult(result){
 			}
 			str += " ";
 		}
-		str += " \n";
+		str += "\n";
 	}
 	return str;
 };
