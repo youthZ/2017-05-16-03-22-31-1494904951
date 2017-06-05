@@ -6,13 +6,13 @@ module.exports = function main(inputs) {
 		result.push( returnNumber(inputs.charAt(index)));
 	}
 	strNumber = mergeResult(result);
-	//console.log(strNumber);
-    //return strNumber;
+	console.log(strNumber);
+    return strNumber;
 };
 
 
 function mergeResult(result){
-	var str="";
+	var str;
 	
 	for (var i = 0; i < result[0].length ;i++ )
 	{
