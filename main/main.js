@@ -7,7 +7,7 @@ module.exports = function main(inputs) {
 	}
 	strNumber = mergeResult(result);
 	console.log(strNumber);
-    return "910";
+    return strNumber;
 };
 
 
