@@ -1,6 +1,6 @@
 module.exports = function main(inputs) {
 	var result=[];
-	var strNumber;
+	var strNumber="";
 	for (var index = 0; index < inputs.length ; index++)
 	{
 		result.push( returnNumber(inputs.charAt(index)));
@@ -12,7 +12,7 @@ module.exports = function main(inputs) {
 
 
 function mergeResult(result){
-	var str;
+	var str=;
 	
 	for (var i = 0; i < result[0].length ;i++ )
 	{
