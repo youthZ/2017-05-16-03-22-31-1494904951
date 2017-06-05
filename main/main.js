@@ -20,8 +20,10 @@ function mergeResult(result){
 		{
 			for (var j = 0; j < result[0][i].length ; j++)
 			{
-				if((i !=0 )&&( r != 0)&&( j != 0))
+				if((i ==0 )&&( r == 0)&&( j == 0))
 				{
+					continue;
+				}else{
 					str += result[r][i][j];
 				}
 			}
