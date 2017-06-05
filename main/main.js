@@ -12,7 +12,7 @@ module.exports = function main(inputs) {
 
 
 function mergeResult(result){
-	var str=result[0][0][0];
+	var str="";
 	
 	for (var i = 0; i < result[0].length ;i++ )
 	{
@@ -20,12 +20,7 @@ function mergeResult(result){
 		{
 			for (var j = 0; j < result[0][i].length ; j++)
 			{
-				if((i ==0 )&&( r == 0)&&( j == 0))
-				{
-					continue;
-				}else{
-					str += result[r][i][j];
-				}
+				str += result[r][i][j];
 			}
 			if(r != result.length)
 			{
