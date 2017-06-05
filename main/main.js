@@ -6,7 +6,7 @@ module.exports = function main(inputs) {
 		result.push( returnNumber(inputs.charAt(index)));
 	}
 	str = mergeResult(result);
-	console.log(str)
+	console.log(str);
     return str;
 };
 
