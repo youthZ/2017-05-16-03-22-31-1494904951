@@ -1,19 +1,10 @@
 module.exports = function main(inputs) {
 	var result=[];
-	var strNumber = "";
+	var str = "";
 	for (var index = 0; index < inputs.length ; index++)
 	{
 		result.push( returnNumber(inputs.charAt(index)));
 	}
-	strNumber = mergeResult(result);
-	console.log(strNumber);
-    return strNumber;
-};
-
-
-function mergeResult(result){
-	var str="";
-	
 	for (var i = 0; i < result[0].length ;i++ )
 	{
 		for (var r = 0 ; r < result.length ; r++)
@@ -29,7 +20,8 @@ function mergeResult(result){
 		}
 		str += "\n";
 	}
-	return str;
+	console.log(str);
+    return str;
 };
 
 function returnNumber(inputs){
