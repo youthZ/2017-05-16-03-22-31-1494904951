@@ -1,12 +1,13 @@
 module.exports = function main(inputs) {
 	var result=[];
-
+	var str;
 	for (var index = 0; index < inputs.length ; index++)
 	{
 		result.push( returnNumber(inputs.charAt(index)));
 	}
-	
-    return mergeResult(result);
+	str = mergeResult(result);
+	console.log(str)
+    return str;
 };
 
 
