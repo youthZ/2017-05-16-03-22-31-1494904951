@@ -5,14 +5,14 @@ module.exports = function main(inputs) {
 		result.push( returnNumber(inputs.charAt(index)));
 	}
 	printLedNumber(result);
-    console.log("Debug Info");
+    //console.log("Debug Info");
     //return 'Hello World!';
 };
 
 function printLedNumber(result){
 	for (var row = 0;row < result.length ; row++)
 	{
-		console.log(result[row]);
+		console.log(result[row]+" ");
 	}
 };
 
