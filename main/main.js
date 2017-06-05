@@ -5,9 +5,9 @@ module.exports = function main(inputs) {
 	{
 		result.push( returnNumber(inputs.charAt(index)));
 	}
-	str = mergeResult(result);
-	console.log(str);
-    return str;
+	strNumber = mergeResult(result);
+	console.log(strNumber);
+    return strNumber;
 };
 
 
