@@ -2,7 +2,7 @@ module.exports = function main(inputs) {
 	var result=[];
 	for (var index = 0; index < inputs.length ; index++)
 	{
-		result.push( returnNumber(inputs.charAt(index)+" "));
+		result.push( returnNumber(inputs.charAt(index)));
 	}
 //	printLedNumber(result);
     //console.log("Debug Info");
