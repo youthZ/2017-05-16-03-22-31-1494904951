@@ -1,13 +1,13 @@
 module.exports = function main(inputs) {
 	var result=[];
-	var strNumber;
+	var ledNumber;
 	for (var index = 0; index < inputs.length ; index++)
 	{
 		result.push( returnNumber(inputs.charAt(index)));
 	}
-	strNumber = mergeResult(result);
-	console.log(`strNumber`);
-    return strNumber;
+	ledNumber = mergeResult(result);
+	console.log(ledNumber);
+    return ledNumber;
 };
 
 
