@@ -4,8 +4,7 @@ module.exports = function main(inputs) {
 	{
 		result.push( returnNumber(inputs.charAt(index)));
 	}
-//	printLedNumber(result);
-    //console.log("Debug Info");
+    console.log(result);
     return result;
 };
 
