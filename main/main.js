@@ -22,7 +22,7 @@ function mergeResult(result){
 			{
 				str += result[r][i][j];
 			}
-			if(r != result.length)
+			if(r != result.length-1)
 			{
 				str += " ";
 			}
