@@ -17,7 +17,7 @@ function printLedNumber(result){
 };
 
 function returnNumber(inputs){
-	var arrayNumber = {{".",".","."},{".",".","."},{".",".","."}};
+	var arrayNumber = [[".",".","."],[".",".","."],[".",".","."]];
 	switch (inputs)
 	{
 	case "0":
