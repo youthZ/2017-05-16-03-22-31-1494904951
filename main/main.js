@@ -1,19 +1,19 @@
 module.exports = function main(inputs) {
 	var result=[];
+	var str="";
 	for (var index = 0; index < inputs.length ; index++)
 	{
 		result.push( returnNumber(inputs.charAt(index)));
 	}
-    console.log(result[0]);
-    return result;
+	for (var index; index < result.length ; index++)
+	{
+		for ( var i = 0 ; i < result[index].length ;  )
+		{
+		}
+	}
+    return result[0];
 };
 
-function printLedNumber(result){
-	for (var row = 0;row < result.length ; row++)
-	{
-		console.log(result[row]+" ");
-	}
-};
 
 function returnNumber(inputs){
 	var arrayNumber = [[".",".","."],[".",".","."],[".",".","."]];
