@@ -23,7 +23,9 @@ function mergeResult(result){
 				str += result[r][i][j];
 			}
 			if(r != result.length)
+			{
 				str += " ";
+			}
 		}
 		str += "\n";
 	}
