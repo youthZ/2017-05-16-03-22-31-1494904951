@@ -4,7 +4,7 @@ module.exports = function main(inputs) {
 	{
 		result.push( returnNumber(inputs.charAt(index)));
 	}
-    console.log(result);
+    console.log(result[0]);
     return result;
 };
 
