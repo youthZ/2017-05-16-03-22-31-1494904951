@@ -12,7 +12,7 @@ module.exports = function main(inputs) {
 
 
 function mergeResult(result){
-	var str;
+	var str="";
 	
 	for (var i = 0; i < result[0].length ;i++ )
 	{
