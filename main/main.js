@@ -1,6 +1,6 @@
 module.exports = function main(inputs) {
 	var result=[];
-	var str;
+	var strNumber;
 	for (var index = 0; index < inputs.length ; index++)
 	{
 		result.push( returnNumber(inputs.charAt(index)));
