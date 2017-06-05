@@ -2,11 +2,11 @@ module.exports = function main(inputs) {
 	var result=[];
 	for (var index = 0; index < inputs.length ; index++)
 	{
-		result.push( returnNumber(inputs.charAt(index)));
+		result.push( returnNumber(inputs.charAt(index)+" "));
 	}
-	printLedNumber(result);
+//	printLedNumber(result);
     //console.log("Debug Info");
-    //return 'Hello World!';
+    return result;
 };
 
 function printLedNumber(result){
